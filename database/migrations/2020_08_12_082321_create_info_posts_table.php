@@ -13,7 +13,7 @@ class CreateInfoPostsTable extends Migration
      */
     public function up()
     {
-        Schema::create('info', function (Blueprint $table) {
+        Schema::create('info_posts', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title',50);
             $table->text('body');
